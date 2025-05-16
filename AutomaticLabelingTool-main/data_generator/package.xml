@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>data_generator</name>
+  <version>0.0.0</version>
+  <description>data generation</description>
+
+  <license>MRT</license>
+  <maintainer email="kirik@mrt.kit.edu">Oguzhan Kirik</maintainer>
+  <author email="kirik@mrt.kit.edu">Oguzhan Kirik</author>
+  <url type="repository">https://gitlab.mrt.uni-karlsruhe.de/MRT/private/bieder/students/kirik/data_generator</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mrt_cmake_modules</build_depend>
+  <test_depend>gtest</test_depend>
+  <!--
+    Documentation for dependencies:
+    <build_depend>            Build-time dependency required to build
+                              this package, e.g. boost, opencv.
+    <build_export_depend>     Exported build-time dependency required to
+                              build packages that depend on this package,
+                              e.g. boost, opencv.
+    <exec_depend>             Execution dependency required to run this
+                              package, e.g. boost, opencv.
+    <depend>                  Build-time, exported build-time and execution
+                              dependency. This is a bundled synonym for
+                              <build_depend>, <build_export_depend> and
+                              <exec_depend>.
+  -->
+  <!--
+    Example:
+    <depend>mrt_opencv</depend>
+  -->
+  <depend>eigen</depend>
+  <depend>camera_models</depend>
+  <depend>calib_storage</depend>
+  <depend>pugixml-dev</depend>
+  <depend>libopencv-dev</depend>
+  <depend>libpcl-all-dev</depend>
+  <depend>libjsoncpp-dev</depend>
+  <depend>locmap_io</depend>
+  <depend>gnss_coordinate_transform</depend>
+  <depend>generic_logger</depend>
+  <depend>boost</depend>
+  <depend>libcereal-dev</depend>
+  <depend>lanelet2_core</depend>
+  <depend>lanelet2_io</depend>
+  <depend>lanelet2_projection</depend>
+  <depend>lanelet2_traffic_rules</depend>
+  <depend>util_eigen_geometry</depend>
+  <depend>lanelet2_routing</depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+  </export>
+</package>
